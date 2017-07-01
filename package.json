@@ -1,0 +1,31 @@
+{
+  "name": "basic-units",
+  "version": "0.1.0",
+  "description": "Convert quantities from one unit to another",
+  "main": "dist/src/basic-units.js",
+  "scripts": {
+    "build": "babel src/basic-units.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angel-io/BasicUnits.git"
+  },
+  "keywords": [
+    "javascript",
+    "unit",
+    "converter",
+    "quantities",
+    "basic"
+  ],
+  "author": "Angel Guevara <angelguevara_io@outlook.com> (https://github.com/Angel-io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Angel-io/BasicUnits/issues"
+  },
+  "homepage": "https://github.com/Angel-io/BasicUnits#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
